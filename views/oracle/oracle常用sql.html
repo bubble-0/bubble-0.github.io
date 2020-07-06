@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>oracle常用sql | bubble-blog</title>
+    <meta name="description" content="A simple and beautiful vuepress blog theme .">
+    <meta name="generator" content="VuePress 1.3.1">
+    <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.d41eeb47.css" as="style"><link rel="preload" href="/assets/js/app.7b28327f.js" as="script"><link rel="preload" href="/assets/js/3.1e38ab88.js" as="script"><link rel="preload" href="/assets/js/1.14f50182.js" as="script"><link rel="preload" href="/assets/js/22.1026306d.js" as="script"><link rel="prefetch" href="/assets/js/10.1cb8c117.js"><link rel="prefetch" href="/assets/js/11.6bd79912.js"><link rel="prefetch" href="/assets/js/12.60d4f4ab.js"><link rel="prefetch" href="/assets/js/13.1fc5998b.js"><link rel="prefetch" href="/assets/js/14.6fac8c5d.js"><link rel="prefetch" href="/assets/js/15.383dccf2.js"><link rel="prefetch" href="/assets/js/16.850ddb75.js"><link rel="prefetch" href="/assets/js/17.0d3c5e18.js"><link rel="prefetch" href="/assets/js/18.0b88e347.js"><link rel="prefetch" href="/assets/js/19.ec551a0a.js"><link rel="prefetch" href="/assets/js/20.51902cc2.js"><link rel="prefetch" href="/assets/js/21.0f60ea92.js"><link rel="prefetch" href="/assets/js/23.326f1bfa.js"><link rel="prefetch" href="/assets/js/24.7aa9bc91.js"><link rel="prefetch" href="/assets/js/25.c14cd02f.js"><link rel="prefetch" href="/assets/js/26.d8eca51e.js"><link rel="prefetch" href="/assets/js/27.c5407ca2.js"><link rel="prefetch" href="/assets/js/28.0e2d2284.js"><link rel="prefetch" href="/assets/js/4.34bd87be.js"><link rel="prefetch" href="/assets/js/5.754dcf3e.js"><link rel="prefetch" href="/assets/js/6.21c986d8.js"><link rel="prefetch" href="/assets/js/7.93f78417.js"><link rel="prefetch" href="/assets/js/8.7bc18442.js"><link rel="prefetch" href="/assets/js/9.f77fdbdd.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d41eeb47.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="theme-container" data-v-1e89a76d><div data-v-1e89a76d><div id="loader-wrapper" class="loading-wrapper" data-v-4b73742e data-v-1e89a76d data-v-1e89a76d><div class="loader-main" data-v-4b73742e><div data-v-4b73742e></div><div data-v-4b73742e></div><div data-v-4b73742e></div><div data-v-4b73742e></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-4c218cd8 data-v-1e89a76d data-v-1e89a76d><h3 class="title" style="display:none;" data-v-4c218cd8 data-v-4c218cd8>bubble-blog</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-4c218cd8 data-v-4c218cd8><input type="password" value="" data-v-4c218cd8> <span data-v-4c218cd8>Konck! Knock!</span> <button data-v-4c218cd8>OK</button></label> <div class="footer" style="display:none;" data-v-4c218cd8 data-v-4c218cd8><span data-v-4c218cd8><i class="iconfont reco-theme" data-v-4c218cd8></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-4c218cd8>vuePress-theme-reco</a></span> <span data-v-4c218cd8><i class="iconfont reco-copyright" data-v-4c218cd8></i> <a data-v-4c218cd8><span data-v-4c218cd8>bubble</span>
+            
+          <span data-v-4c218cd8>2020 - </span>
+          2020
+        </a></span></div></div> <div class="hide" data-v-1e89a76d><header class="navbar" data-v-1e89a76d><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/head.png" alt="bubble-blog" class="logo"> <span class="site-name">bubble-blog</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/JDK8/" class="nav-link"><i class="iconfont undefined"></i>
+  JDK8
+</a></li><li class="dropdown-item"><!----> <a href="/categories/java/" class="nav-link"><i class="iconfont undefined"></i>
+  java
+</a></li><li class="dropdown-item"><!----> <a href="/categories/linux/" class="nav-link"><i class="iconfont undefined"></i>
+  linux
+</a></li><li class="dropdown-item"><!----> <a href="/categories/oracle/" class="nav-link"><i class="iconfont undefined"></i>
+  oracle
+</a></li><li class="dropdown-item"><!----> <a href="/categories/安装文档/" class="nav-link"><i class="iconfont undefined"></i>
+  安装文档
+</a></li><li class="dropdown-item"><!----> <a href="/categories/springboot/" class="nav-link"><i class="iconfont undefined"></i>
+  springboot
+</a></li><li class="dropdown-item"><!----> <a href="/categories/other/" class="nav-link"><i class="iconfont undefined"></i>
+  other
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Contact
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/bubble-0" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-1e89a76d></div> <aside class="sidebar" data-v-1e89a76d><div class="personal-info-wrapper" data-v-d6c2a8d2><img src="/head.png" alt="author-avatar" class="personal-img" data-v-d6c2a8d2> <h3 class="name" data-v-d6c2a8d2>
+    bubble
+  </h3> <div class="num" data-v-d6c2a8d2><div data-v-d6c2a8d2><h3 data-v-d6c2a8d2>17</h3> <h6 data-v-d6c2a8d2>文章</h6></div> <div data-v-d6c2a8d2><h3 data-v-d6c2a8d2>0</h3> <h6 data-v-d6c2a8d2>标签</h6></div></div> <hr data-v-d6c2a8d2></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/JDK8/" class="nav-link"><i class="iconfont undefined"></i>
+  JDK8
+</a></li><li class="dropdown-item"><!----> <a href="/categories/java/" class="nav-link"><i class="iconfont undefined"></i>
+  java
+</a></li><li class="dropdown-item"><!----> <a href="/categories/linux/" class="nav-link"><i class="iconfont undefined"></i>
+  linux
+</a></li><li class="dropdown-item"><!----> <a href="/categories/oracle/" class="nav-link"><i class="iconfont undefined"></i>
+  oracle
+</a></li><li class="dropdown-item"><!----> <a href="/categories/安装文档/" class="nav-link"><i class="iconfont undefined"></i>
+  安装文档
+</a></li><li class="dropdown-item"><!----> <a href="/categories/springboot/" class="nav-link"><i class="iconfont undefined"></i>
+  springboot
+</a></li><li class="dropdown-item"><!----> <a href="/categories/other/" class="nav-link"><i class="iconfont undefined"></i>
+  other
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Contact
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/bubble-0" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>oracle常用sql</span> <!----></p> <!----></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-4c218cd8 data-v-1e89a76d><h3 class="title" style="display:none;" data-v-4c218cd8 data-v-4c218cd8>oracle常用sql</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-4c218cd8 data-v-4c218cd8><input type="password" value="" data-v-4c218cd8> <span data-v-4c218cd8>Konck! Knock!</span> <button data-v-4c218cd8>OK</button></label> <div class="footer" style="display:none;" data-v-4c218cd8 data-v-4c218cd8><span data-v-4c218cd8><i class="iconfont reco-theme" data-v-4c218cd8></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-4c218cd8>vuePress-theme-reco</a></span> <span data-v-4c218cd8><i class="iconfont reco-copyright" data-v-4c218cd8></i> <a data-v-4c218cd8><span data-v-4c218cd8>bubble</span>
+            
+          <span data-v-4c218cd8>2020 - </span>
+          2020
+        </a></span></div></div> <div data-v-1e89a76d><main class="page"><!----> <div class="page-title" style="display:none;"><h1>oracle常用sql</h1> <hr> <div data-v-17366d91><i class="iconfont reco-account" data-v-17366d91><span data-v-17366d91>bubble</span></i> <i class="iconfont reco-date" data-v-17366d91><span data-v-17366d91>2019-04-16</span></i> <!----> <!----></div></div> <div class="theme-reco-content content__default" style="display:none;"><h3 id="查看用户的所有数据"><a href="#查看用户的所有数据" class="header-anchor">#</a> 查看用户的所有数据</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>select * from user_source
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="查看用户下的表"><a href="#查看用户下的表" class="header-anchor">#</a> 查看用户下的表</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>SELECT * FROM user_tables;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="查看用户表的注释"><a href="#查看用户表的注释" class="header-anchor">#</a> 查看用户表的注释</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>SELECT * FROM user_tab_comments;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="查看用户表的字段注释"><a href="#查看用户表的字段注释" class="header-anchor">#</a> 查看用户表的字段注释</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>SELECT * FROM user_col_comments
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="查询oracle中所有用户信息"><a href="#查询oracle中所有用户信息" class="header-anchor">#</a> 查询oracle中所有用户信息</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>select  * from dba_users;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="查询当前用户信息"><a href="#查询当前用户信息" class="header-anchor">#</a> 查询当前用户信息</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>select * from dba_ustats;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="修改用户密码"><a href="#修改用户密码" class="header-anchor">#</a> 修改用户密码</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>alter user 用户名 identified by 密码;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="查看视图的名称"><a href="#查看视图的名称" class="header-anchor">#</a> 查看视图的名称</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>select view_name from user_views;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="查看同义词的名称"><a href="#查看同义词的名称" class="header-anchor">#</a> 查看同义词的名称</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>select * from user_synonyms;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="查看当前用户权限："><a href="#查看当前用户权限：" class="header-anchor">#</a> 查看当前用户权限：</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>select * from user_role_privs;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="赋予dba权限"><a href="#赋予dba权限" class="header-anchor">#</a> 赋予DBA权限</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>grant dba to user;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="赋予建表权限"><a href="#赋予建表权限" class="header-anchor">#</a> 赋予建表权限</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>grant create table to st_new
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="查看表空间及其数据文件"><a href="#查看表空间及其数据文件" class="header-anchor">#</a> 查看表空间及其数据文件</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>SELECT * FROM dba_data_files;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="创建临时表空间"><a href="#创建临时表空间" class="header-anchor">#</a> 创建临时表空间</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>create temporary tablespace tablespace_name --表空间名称
+tempfile '-------'--oracle文件路径
+size 32m 
+autoextend on 
+next 32m maxsize 2048m 
+extent management local; 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="创建数据表空间"><a href="#创建数据表空间" class="header-anchor">#</a> 创建数据表空间</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>create tablespace tablespace_name --test_data临时表空间名称
+logging 
+datafile '-------'--oracle文件路径
+size 32m 
+autoextend on 
+next 32m maxsize 2048m 
+extent management local; 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h3 id="创建用户并指定表空间"><a href="#创建用户并指定表空间" class="header-anchor">#</a> 创建用户并指定表空间</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>create user username identified by password --username用户名称  
+default tablespace test_data --默认用户表空间
+temporary tablespace test_temp; --默认临时表空间
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="改变用户的表空间"><a href="#改变用户的表空间" class="header-anchor">#</a> 改变用户的表空间</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>alter user 用户名 default tablespace 表空间名称;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="创建索引并指定索引表空间"><a href="#创建索引并指定索引表空间" class="header-anchor">#</a> 创建索引并指定索引表空间</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>create index demo_index on demo (ID) TABLESPACE  faml_idx;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="给用户授予权限"><a href="#给用户授予权限" class="header-anchor">#</a> 给用户授予权限</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>grant connect,resource to username; 
+grant dba to username
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="找回误删除的表"><a href="#找回误删除的表" class="header-anchor">#</a> 找回误删除的表</h3> <ul><li>查看回收站中表</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>select object_name,original_name,partition_name,type,ts_name,createtime,droptime from recyclebin;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>恢复表</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>flashback table 表  名 to before drop;
+flashback table &quot;BIN$b+XkkO1RS5K10uKo9BfmuA==$0&quot; to before drop;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li>开启行移动功能</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>alter table 表名 enable row movement
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>恢复表数据</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>flashback table 表名 to timestamp to_timestamp(删除时间点 ,'yyyy-mm-dd hh24:mi:ss')
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>关闭行移动功能 ( 千万别忘记 )</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>alter table 表名 disable row movement
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="表资源被锁"><a href="#表资源被锁" class="header-anchor">#</a> 表资源被锁</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>SELECT t2.username,
+       t2.sid,
+       t2.serial#,
+       t3.object_name,
+       t2.osuser,
+       t2.machine,
+       t2.program,
+       t2.logon_time,
+       t2.command,
+       t2.lockwait,
+       t2.saddr,
+       t2.paddr,
+       t2.taddr,
+       t2.sql_address,
+       t1.locked_mode
+  FROM v$locked_object t1, v$session t2, dba_objects t3
+ WHERE t1.session_id = t2.sid
+   AND t1.object_id = t3.object_id
+ ORDER BY t2.logon_time;
+
+-- 杀死被锁的session
+alter system kill session 'sid,serial#';   
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><h3 id="删除空的表空间，但是不包含物理文件"><a href="#删除空的表空间，但是不包含物理文件" class="header-anchor">#</a> 删除空的表空间，但是不包含物理文件</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>drop tablespace tablespace_name;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="删除非空表空间，但是不包含物理文件"><a href="#删除非空表空间，但是不包含物理文件" class="header-anchor">#</a> 删除非空表空间，但是不包含物理文件</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>drop tablespace tablespace_name including contents;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="删除空表空间，包含物理文件"><a href="#删除空表空间，包含物理文件" class="header-anchor">#</a> 删除空表空间，包含物理文件</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>drop tablespace tablespace_name including datafiles;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="删除非空表空间，包含物理文件"><a href="#删除非空表空间，包含物理文件" class="header-anchor">#</a> 删除非空表空间，包含物理文件</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>drop tablespace tablespace_name including contents and datafiles;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="如果其他表空间中的表有外键等约束关联到了本表空间中的表的字段，就要加上cascade-constraints"><a href="#如果其他表空间中的表有外键等约束关联到了本表空间中的表的字段，就要加上cascade-constraints" class="header-anchor">#</a> 如果其他表空间中的表有外键等约束关联到了本表空间中的表的字段，就要加上CASCADE CONSTRAINTS</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>drop tablespace tablespace_name including contents and datafiles CASCADE CONSTRAINTS;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="说明：-删除了user，只是删除了该user下的schema-objects，是不会删除相应的tablespace的。"><a href="#说明：-删除了user，只是删除了该user下的schema-objects，是不会删除相应的tablespace的。" class="header-anchor">#</a> 说明： 删除了user，只是删除了该user下的schema objects，是不会删除相应的tablespace的。</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>drop user username cascade
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="启动数据库"><a href="#启动数据库" class="header-anchor">#</a> 启动数据库</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>STARTUP
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="关闭数据库"><a href="#关闭数据库" class="header-anchor">#</a> 关闭数据库</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>1.SHUTDOWN NORMAL
+发出该命令后，任何新的连接都将再不允许连接到数据库。在数据库关闭之前，Oracle将等待目前连接的所有用户都从数据库中退出后才开始关闭数据库。
+采用这种方式关闭数据库，在下一次启动时不需要进行任何的实例恢复。但需要注意的是，采用这种方式，也许关闭一个数据库需要几天时间，或者更长。
+2.SHUTDOWN IMMEDIATE
+这是常用的一种关闭数据库的方式，想很快地关闭数据库，但又想让数据库干净的关闭，常采用这种方式。
+当前正在被Oracle处理的SQL语句立即中断，系统中任何没有提交的事务全部回滚。如果系统中存在一个很长的未提交的事务，采用这种方式关闭数据库也需要一段时间（该事务回滚时间）。
+系统不等待连接到数据库的所有用户退出系统，强行回滚当前所有的活动事务，然后断开所有的连接 用户。
+3.SHUTDOWN TRANSACTIONAL
+该选项仅在Oracle 8i后才可以使用。该命令常用来计划关闭数据库，它使当前连接到系统且正在活动的事务执行完毕，运行该命令后，任何新的连接和事务都是不允许的。
+在所有活动的事务完成后，数据库将和SHUTDOWN IMMEDIATE同样的方式关闭数据库。
+4.SHUTDOWN ABORT
+这是关闭数据库的最后一招，也是在没有任何办法关闭数据库的情况下才不得不采用的方式，一般不要采用。如果下列情况出现时可以考虑采用这种方式关闭数据库。
+1、 数据库处于一种非正常工作状态，不能用shutdown normal或者shutdown immediate这样的命令关闭数据库;
+2、 需要立即关闭数据库；
+3、 在启动数据库实例时遇到问题；
+所有正在运行的SQL语句都将立即中止。所有未提交的事务将不回滚。Oracle也不等待目前连接到数据库的用户退出系统。
+下一次启动数据库时需要进行实例恢复，因此，下一次启动可能比平时需要更多的时间。
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><h3 id="启动实例"><a href="#启动实例" class="header-anchor">#</a> 启动实例</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>lsnrctl start
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="查看实例状态"><a href="#查看实例状态" class="header-anchor">#</a> 查看实例状态</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>lsnrctl status
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="导出dmp包-compress-y-压缩dmp包"><a href="#导出dmp包-compress-y-压缩dmp包" class="header-anchor">#</a> 导出DMP包  compress=y (压缩DMP包)</h3> <ul><li>将数据库ORACLE完全导出</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>exp 用户名/密码@实例名  file= full=y
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>将数据库中user1用户与,user2用户的表导出</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>exp 用户名/密码@实例名  file= owner=(user1, user2)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>将数据库中的表T_USER、T_ROLE导出</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>exp 用户名/密码@实例名  file= tables=(table1, table2)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>将数据库中的表table1中的字段filed1以&quot;00&quot;打头的数据导出</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>exp 用户名/密码@实例名 file=d:\daochu.dmp tables=(table1) -- query=\&quot; where filed1 like '00%'\&quot;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="导入dmp包"><a href="#导入dmp包" class="header-anchor">#</a> 导入DMP包</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>imp 用户名/密码@实例名  file=  ignore=y -- 忽略已存在的表
+
+imp 用户名/密码@实例名  file=  tables=(table1) 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="查看字符集"><a href="#查看字符集" class="header-anchor">#</a> 查看字符集</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>select * from nls_database_parameters where parameter='NLS_CHARACTERSET';
+
+select userenv('language') from dual;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="快速生成实体类"><a href="#快速生成实体类" class="header-anchor">#</a> 快速生成实体类</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>SELECT '/* ' || comments    || ' **/' , 'private String ' || lower(column_name)  || ';'FROM User_Col_Comments WHERE TABLE_NAME = 'TA_FMS_FEE_AVG'
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="oracle对sql将进行几个步骤的处理过程："><a href="#oracle对sql将进行几个步骤的处理过程：" class="header-anchor">#</a> Oracle对SQL将进行几个步骤的处理过程：</h3> <ul><li>语法检查(syntax check): 检查此sql的拼写是否语法。</li> <li>语义检查(semantic check): 诸如检查sql语句中的访问对象是否存在及该用户是否具备相应的权限。</li> <li>对sql语句进行解析(prase): 利用内部算法对sql进行解析，生成解析树(parse tree)及执行计划(execution plan)。</li> <li>执行sql，返回结果(execute and return)</li></ul> <h3 id="exists用法"><a href="#exists用法" class="header-anchor">#</a> exists用法</h3> <ul><li>判断另外的表中是否包含某个表的外键记录，使用外键相关联</li> <li>exists是判断exits后面的sql语句是否为真,若为真则整个sql句子成立,否则没有任何记录。</li></ul> <h3 id="regexp-like用法"><a href="#regexp-like用法" class="header-anchor">#</a> regexp_like用法</h3> <ul><li>and REGEXP_LIKE(字段名, '(匹配串1|匹配串2|...)') //全模糊匹配</li> <li>and REGEXP_LIKE(字段名, '^(匹配串1|匹配串2|...)') ;//右模糊匹配</li> <li>and REGEXP_LIKE(字段名, '(匹配串1|匹配串2|...)$') ;//左模糊匹配</li></ul> <h3 id="over函数用法"><a href="#over函数用法" class="header-anchor">#</a> over函数用法</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>SELECT  BUSI_DATE, count(*) OVER(PARTITION BY BUSI_DATE)  FROM    TA_CONFIRM
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="调用带有out的存储过程"><a href="#调用带有out的存储过程" class="header-anchor">#</a> 调用带有out的存储过程</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>declare
+  status  INTEGER;
+  message VARCHAR2(50);
+begin
+  p_print_org_info('1', '1', '1', status, message);
+end;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="使用for循环遍历游标"><a href="#使用for循环遍历游标" class="header-anchor">#</a> 使用for循环遍历游标</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>CREATE OR REPLACE PROCEDURE p_print_org_info(IC_CENDAT  VARCHAR2,
+                                             IC_JOBID   VARCHAR2,
+                                             IC_SEQ     VARCHAR2,
+                                             IC_STATUS  out INTEGER,
+                                             IC_MESSAGE out VARCHAR2) IS
+
+  V_INFO VARCHAR2(200); --程序执行提示信息
+  CURSOR V_ORG IS --声明显式游标  
+    SELECT * FROM tp_pim_org;
+  V_COL V_ORG%rowtype;
+
+BEGIN
+
+  FOR V_COL IN V_ORG LOOP
+    DBMS_OUTPUT.PUT_LINE(V_COL.Orgidt || ' -- ' || V_COL.orgnam);
+  END LOOP;
+
+END p_print_org_info;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><h3 id="批量修改"><a href="#批量修改" class="header-anchor">#</a> 批量修改</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>update aml_customer_accout aca
+     set fdac =
+         (select fdac
+            from TMP_AC_ACCOUNT_CHANGE
+           where scac = aca.scac
+             and rownum = 1),
+         sfin =
+         (select sfin
+            from TMP_AC_ACCOUNT_CHANGE
+           where scac = aca.scac
+             and rownum = 1),
+         stac =
+         (select stac
+            from TMP_AC_ACCOUNT_CHANGE
+           where scac = aca.scac
+             and rownum = 1)
+   where aca.scac in (select distinct scac from TMP_AC_ACCOUNT_CHANGE);
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><h3 id="索引相关"><a href="#索引相关" class="header-anchor">#</a> 索引相关</h3> <ul><li>重建索引</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>/**
+索引本身有长度限制。小于（blocksize-192）*80%
+在8k的表空间中：被索引列的长度不可以超过  （8192-192）*0.8=6400
+在16k的表空间中：被索引列的长度不可以超过  （16384-192）*0.8=12593.6
+rebuild online的过程中，oracle会创建索引组织表IOT
+**/
+CREATE OR REPLACE PROCEDURE CRS_INDEX_UPDATE(
+ T_NAME VARCHAR2, --表名
+ T_TYPE VARCHAR2, --任务类型
+ T_OWNER VARCHAR2
+) AS
+
+CURSOR V_NAME IS
+SELECT * FROM ALL_INDEXES a WHERE TABLE_NAME=UPPER(T_NAME) AND OWNER=UPPER(T_OWNER)
+AND NOT EXISTS(SELECT 1 FROM ALL_OBJECTS b WHERE a.OWNER=b.OWNER and a.TABLE_NAME = b.OBJECT_NAME and b.TEMPORARY = 'Y');
+
+V_SQL VARCHAR2(1000);
+V_TYPE VARCHAR2(1000);
+V_SNO NUMBER;
+V_SQLCODE VARCHAR2(4000);
+V_SQLERRM VARCHAR2(4000);
+V_INDEX_LEN NUMBER;
+V_OL_INDEX_LIMIT_LEN NUMBER DEFAULT 3000;
+V_ONLINE VARCHAR2(10);
+
+BEGIN
+     FOR I IN V_NAME
+     LOOP
+       SELECT NVL(MAX(SNO),0)+1 INTO V_SNO FROM CRS_INDEX_LOG;
+         INSERT INTO CRS_INDEX_LOG(SNO,TABLE_NAME,INDEX_NAME,BEGINTIME)
+         VALUES(V_SNO,T_NAME,I.INDEX_NAME,SYSDATE);
+         COMMIT;
+
+         V_INDEX_LEN := 0;
+         V_ONLINE := 'ONLINE';
+
+         SELECT SUM(A.COLUMN_LENGTH)
+           INTO V_INDEX_LEN
+           FROM USER_IND_COLUMNS A
+          WHERE A.INDEX_NAME = I.INDEX_NAME;
+
+         IF V_INDEX_LEN &gt;= V_OL_INDEX_LIMIT_LEN THEN
+           V_ONLINE := '';
+         END IF;
+
+         IF T_TYPE = 0 THEN --关闭索引
+            V_SQL :='ALTER INDEX ' || I.INDEX_NAME || ' UNUSABLE';
+            V_TYPE :='关闭';
+         ELSE
+            V_SQL :='ALTER INDEX ' || I.INDEX_NAME || ' REBUILD ' || V_ONLINE; --开启索引
+            V_TYPE :='开启';
+          END IF;
+
+      EXECUTE IMMEDIATE V_SQL;
+         UPDATE CRS_INDEX_LOG SET TYPE=V_TYPE,ENDTIME=SYSDATE WHERE SNO=V_SNO;
+       COMMIT;
+     END LOOP;
+
+
+EXCEPTION WHEN OTHERS THEN
+    V_SQLCODE :=SQLCODE;
+    V_SQLERRM :=SQLERRM;
+    SELECT NVL(MAX(SNO),0)+1 INTO V_SNO FROM CRS_INDEX_LOG;
+    INSERT INTO CRS_INDEX_LOG(SNO,TABLE_NAME,BEGINTIME,ENDTIME)
+    VALUES(V_SNO,'索引维护出现异常'||V_SQLCODE||V_SQLERRM||V_SQL,SYSDATE,SYSDATE);
+  COMMIT;
+
+/*grant all privileges to new_crs*/
+
+END CRS_INDEX_UPDATE;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br></div></div><h3 id="查询表空间使用情况"><a href="#查询表空间使用情况" class="header-anchor">#</a> 查询表空间使用情况</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>SELECT UPPER(F.TABLESPACE_NAME) &quot;表空间名&quot;,
+       D.TOT_GROOTTE_MB &quot;表空间大小(M)&quot;,
+       D.TOT_GROOTTE_MB - F.TOTAL_BYTES &quot;已使用空间(M)&quot;,
+       TO_CHAR(ROUND((D.TOT_GROOTTE_MB - F.TOTAL_BYTES) / D.TOT_GROOTTE_MB * 100,
+                     2),
+               '990.99') &quot;使用比&quot;,
+       F.TOTAL_BYTES &quot;空闲空间(M)&quot;,
+       F.MAX_BYTES &quot;最大块(M)&quot;
+  FROM (SELECT TABLESPACE_NAME,
+               ROUND(SUM(BYTES) / (1024 * 1024), 2) TOTAL_BYTES,
+               ROUND(MAX(BYTES) / (1024 * 1024), 2) MAX_BYTES
+          FROM SYS.DBA_FREE_SPACE
+         GROUP BY TABLESPACE_NAME) F,
+       (SELECT DD.TABLESPACE_NAME,
+               ROUND(SUM(DD.BYTES) / (1024 * 1024), 2) TOT_GROOTTE_MB
+          FROM SYS.DBA_DATA_FILES DD
+         GROUP BY DD.TABLESPACE_NAME) D
+ WHERE D.TABLESPACE_NAME = F.TABLESPACE_NAME
+ ORDER BY 4 DESC;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h3 id="新增数据文件，并且允许数据文件自动增长"><a href="#新增数据文件，并且允许数据文件自动增长" class="header-anchor">#</a> 新增数据文件，并且允许数据文件自动增长</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>ALTER TABLESPACE app_data ADD DATAFILE
+'D:\ORACLE\PRODUCT\10.2.0\ORADATA\EDWTEST\APP04.DBF' SIZE 50M
+AUTOEXTEND ON NEXT 5M MAXSIZE 100M;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="手工改变已存在数据文件的大小"><a href="#手工改变已存在数据文件的大小" class="header-anchor">#</a> 手工改变已存在数据文件的大小</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>ALTER DATABASE DATAFILE 'D:\ORACLE\PRODUCT\10.2.0\ORADATA\EDWTEST\APP02.DBF'  
+RESIZE 100M;  
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div></div> <footer class="page-edit" style="display:none;"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">5/12/2020, 9:17:19 PM</span></div></footer> <!----> <!----></main> <!----> <div class="comments-wrapper" data-v-1e89a76d><!----></div></div></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-a81d141e data-v-a81d141e><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-a81d141e><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-a81d141e></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-a81d141e></path></svg></div></div></div>
+    <script src="/assets/js/app.7b28327f.js" defer></script><script src="/assets/js/3.1e38ab88.js" defer></script><script src="/assets/js/1.14f50182.js" defer></script><script src="/assets/js/22.1026306d.js" defer></script>
+  </body>
+</html>
